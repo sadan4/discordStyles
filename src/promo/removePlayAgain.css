@@ -1,0 +1,7 @@
+/**
+* removes discords play again section in the user dms bar
+* made by sadan https://sadan.zip/styles
+*/
+div:has(+h2[class^=privateChannelsHeaderContainer]) {
+    display:none;
+}
