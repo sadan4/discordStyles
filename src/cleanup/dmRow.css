@@ -1,0 +1,11 @@
+ul[aria-label^="Direct Messages"] {
+    > div[class^=friendsButtonContainer__] {
+        + li + li,
+        + li + li + li {
+            display: none;
+        }
+    }
+    > div[class^=container__]  {
+        display: none;
+    }
+}
