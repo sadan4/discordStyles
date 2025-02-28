@@ -1,0 +1,3 @@
+div[class^=channelBottomBarArea_]>div[class^=channelAppLauncher_] {
+    display: none;
+}
